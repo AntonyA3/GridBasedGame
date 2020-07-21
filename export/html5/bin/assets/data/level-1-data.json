@@ -1,0 +1,120 @@
+{
+
+    "grid":{"data":[
+        [0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0],
+        [0,1,1,1,1,1,1,1,0],
+        [0,1,0,0,1,0,0,1,0],
+        [0,1,1,1,1,1,1,1,0],
+        [0,1,0,0,1,0,0,1,0],
+        [0,1,1,1,1,1,1,1,0],
+        [0,0,0,0,0,0,0,0,0],
+        [0,0,0,0,0,0,0,0,0]
+    
+    ],
+        "cell_width_spacing":8,
+        "cell_height_spacing":8,
+        "cell_width":64,
+        "cell_height":32
+
+    },
+
+    "opponent_spawners":[
+        
+
+        { 
+            "spawn_interval":3.0,
+	        "object_start_x":700.0,
+	        "object_start_y":80.0,
+	        "object_x_velocity":-150.0,
+	        "object_y_velocity":0.0,
+	        "object_min_x":-120.0,
+	        "object_max_x":750.0,
+	        "object_min_y":-200.0,
+            "object_max_y":1000.0
+           
+        },
+
+        { 
+            "spawn_interval":6.0,
+	        "object_start_x":-100.0,
+	        "object_start_y":120.0,
+	        "object_x_velocity":150.0,
+	        "object_y_velocity":0.0,
+	        "object_min_x":-200.0,
+	        "object_max_x":700.0,
+	        "object_min_y":-200.0,
+            "object_max_y":1000.0,
+            "at_time_set_values":[
+            ]
+        },
+
+        { 
+            "spawn_interval":9.0,
+	        "object_start_x":-100.0,
+	        "object_start_y":160.0,
+	        "object_x_velocity":200.0,
+	        "object_y_velocity":0.0,
+	        "object_min_x":-200.0,
+	        "object_max_x":700.0,
+	        "object_min_y":-200.0,
+            "object_max_y":1000.0
+           
+        },
+
+        { 
+            "spawn_interval":7.0,
+	        "object_start_x":-100.0,
+	        "object_start_y":200.0,
+	        "object_x_velocity":500.0,
+	        "object_y_velocity":0.0,
+	        "object_min_x":-200.0,
+	        "object_max_x":700.0,
+	        "object_min_y":-200.0,
+            "object_max_y":1000.0
+          
+        },
+
+        { 
+            "spawn_interval":10.5,
+	        "object_start_x":-100.0,
+	        "object_start_y":240.0,
+	        "object_x_velocity":100.0,
+	        "object_y_velocity":0.0,
+	        "object_min_x":-200.0,
+	        "object_max_x":700.0,
+	        "object_min_y":-200.0,
+            "object_max_y":1000.0
+        },
+
+        { 
+            "spawn_interval":5.0,
+	        "object_start_x":144.0,
+	        "object_start_y":-100.0,
+	        "object_x_velocity":0.0,
+	        "object_y_velocity":100.0,
+	        "object_min_x":-200.0,
+	        "object_max_x":700.0,
+	        "object_min_y":-200.0,
+            "object_max_y":500.0
+        },
+
+        { 
+            "spawn_interval":6.7,
+	        "object_start_x":432.0,
+	        "object_start_y":-100.0,
+	        "object_x_velocity":0.0,
+	        "object_y_velocity":100.0,
+	        "object_min_x":-200.0,
+	        "object_max_x":700.0,
+	        "object_min_y":-200.0,
+            "object_max_y":500.0
+        }
+    ],
+
+    "player":{
+        "x":288.0,"y":160.0
+    }
+    
+}
+
